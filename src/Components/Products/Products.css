@@ -1,0 +1,33 @@
+.product {
+    /* background-color: #652467a9;
+    border: 1px solid #00000032; */
+    height: 470px;
+
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+
+.textCutomize {
+    /* background-color: #fff; */
+    overflow: hidden;
+    height: 100px;
+}
+
+a {
+    color: #000;
+}
+
+.HeartIcon {
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    color: red;
+    right: -100%;
+    transition: 0.5s all;
+}
+
+
+.product:hover .HeartIcon {
+    right: 5%;
+}
